@@ -23,6 +23,7 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.4",
     "tailwindcss": "^4.1.4",
+    "uuid": "^11.1.0",
     "ws": "^8.18.1"
   }
 }
