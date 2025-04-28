@@ -6,7 +6,19 @@
     <title>Said Chat</title>
     <link rel="stylesheet" href="styles/output.css">
 </head>
-<body>
-    
+<body class="bg-black text-white min-h-dvh flex justify-center items-center">
+    <div class="container flex flex-col gap-2 w-max justify-center items-center">
+        <h1 class="font-extrabold text-6xl leading-normal">Said Chat</h1>
+        <p>Este proyecto es un proyecto de prueba por lo que la UI no estará perfeccionada.</p>
+        <p>Pronto haré un proyecto más grande con WebSockets ¡Estén atentos!</p>
+        <input type="text" id="mensaje" class="mensaje border border-white rounded-full my-2 px-4 w-md h-12">
+        <button id="enviar" class="cursor-pointer border border-white w-40 h-10 rounded-full hover:bg-white hover:text-black transition-all duration-200">Enviar mensaje</button>
+        <div class="contenedor-mensajes text-white flex flex-col gap-8 w-4xl h-60 overflow-y-scroll">
+        </div>
+    </div>
+    <footer class="absolute bottom-4 flex justify-center">
+        <p>Hecho por <a href="https://github.com/Junlovin" target="_blank" class="underline underline-offset-2">Said</a> con ♥️ y ☕</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
