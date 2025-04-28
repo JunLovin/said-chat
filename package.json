@@ -1,0 +1,28 @@
+{
+  "name": "said-chat",
+  "version": "1.0.0",
+  "description": "Este proyecto está enfocado específicamente en aprender a utilizar WebSockets.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js",
+    "build:css": "tailwindcss -i ./src/styles/globals.css -o ./src/styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunLovin/said-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JunLovin/said-chat/issues"
+  },
+  "homepage": "https://github.com/JunLovin/said-chat#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4",
+    "ws": "^8.18.1"
+  }
+}
